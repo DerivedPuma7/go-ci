@@ -3,8 +3,8 @@ package main
 import "testing"
 
 func TestSum(t *testing.T) {
-	a := 10
-	b := 20
+	a := 20
+	b := 10
 
 	total := sum(a, b)
 
