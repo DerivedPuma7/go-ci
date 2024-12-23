@@ -6,7 +6,7 @@ func TestSum(t *testing.T) {
 	a := 10
 	b := 20
 
-	total := Sum(a, b)
+	total := sum(a, b)
 
 	if(total != 30) {
 		t.Errorf("Invalid result. Expected: %d, Got: %d", a+b, total)
